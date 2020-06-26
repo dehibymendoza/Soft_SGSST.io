@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Metadatos de la pagina-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Trabajo hecho por" content="SAM_ELL">
+    <meta name="Descripción" content="Software de Seguridad y Salud en el Trabajo">
+    <meta name="autor" content="ING. DEHIBY MENDOZA DUEÑAS">
+    <!--Iconos Menu lateral-->
+    <link href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" rel="stylesheet">
+
+
+    <!-- CSS only -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Indie+Flower&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!--Caligrafia de la pagina-->
+    <link rel="stylesheet" id="wp-editor-font-css" data-href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&amp;ver=5.3.2" type="text/css" media="all" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&amp;ver=5.3.2">
+    <link rel="stylesheet" id="mesmerize-fonts-css" data-href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C7">
+
+    <!-- vinculo a bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!--Titulo Pestaña HV-->
+    <title>Soft/Inicio</title>
+    <link rel=" shortcut icon " href="img/1.png " type="image/x-icon " />
+</head>
+
+<body>
+
+    <!--MENU CONFIGURACIÓN SG-SST -->
+    <div class="top-menu float-right d-inline-block ">
+        <ul class="nav navbar-nav float-right">
+
+            <li class="dropdown dropdown-user">
+                <a href="javascript:;" class="dropdown-toggle d-block" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                    <span class="username d-inline-block text-truncate">
+                            CONFIGURACIÓN </span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-default ">
+                    <li>
+                        <a href='http://rol'>
+                            <i class="icon-rocket"></i> Rol
+                        </a>
+                    </li>
+                    <li>
+                        <a href='http://recordarcontrasena'>
+                            <i class="icon-lock"></i> Cambiar Contraseña </a>
+                    </li>
+                    <li>
+                        <a href='http://datosUsuario'>
+                            <i class="icon-user"></i> Datos Personales </a>
+                    </li>
+                    <li>
+                        <a href='http://listTicket'>
+                            <i class="icon-user"></i> Gestor Documental </a>
+                    </li>
+                    <li class="divider">
+                    </li>
+                    <li>
+                        <a href='index.html#index'>
+                            <i class="icon-key"></i> Cerrar Sesion
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+    <!-- END MENU CONFIGURACIÓN SG-SST-->
+    <!--BARRA HORIZONTAL NEGRA -->
+    <div class="block ">
+        <nav class="navbar navbar-expand-sm cleanco-pad " id="page-top ">
+
+        </nav>
+    </div>
+    <!--MENU GESTION DEL SG-SST-->
+    <div class="nav-side-menu block">
+
+        <div align="center">
+            <p>Soft/SG-SST<br>
+                <img class="img " src="img/1.png " width="150 " height="50 ">
+            </p>
+        </div>
+
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+
+        <div class="menu-list">
+
+            <ul id="menu-content" class="menu-content collapse out">
+
+                <li data-toggle="collapse" data-target="#products" class="collapsed active">
+                    <a href="#"><i class="fab fa-studiovinari fa-lg"></i>ORGANIZACIÓN<span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="products">
+
+                    <li class="active"><a href="#">Estructura</a></li>
+                    <li><a href="#">Procesos</a></li>
+                    <li><a href="#">Presupuesto</a></li>
+
+                    <li data-toggle="collapse" data-target="#service" class="collapsed ">
+                        <a href="#"> <i class="fab fa-fort-awesome-alt fa-lg"></i> Recurso Humano</a>
+                        <ul class="sub-menu " id="service">
+                            <li>Seguridad Social</li>
+                            <li>Perfil Sociodemografico</li>
+                            <li>Matriz de Cargos</li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                    <a href="#"><i class="fab fa-fort-awesome-alt fa-lg"></i> Services <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="service">
+                    <li>New Service 1</li>
+                    <li>New Service 2</li>
+                    <li>New Service 3</li>
+                </ul>
+
+
+                <li data-toggle="collapse" data-target="#new" class="collapsed">
+                    <a href="#"><i class="fab fa-pagelines fa-lg"></i> New <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="neww">
+                    <li>New New 1</li>
+                    <li>New New 2</li>
+                    <li>New New 3</li>
+                </ul>
+
+
+                <li data-toggle="collapse" data-target="#service" class="collapsed">
+                    <a href="#"><i class="fab fa-fort-awesome-alt fa-lg"></i> Services <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="service">
+                    <li>New Service 1</li>
+                    <li>New Service 2</li>
+                    <li>New Service 3</li>
+                </ul>
+
+
+
+                <li data-toggle="collapse" data-target="#new" class="collapsed">
+                    <a href="#"><i class="fas fa-users fa-lg"></i> Medicina Laboral <span class="arrow"></span></a>
+                </li>
+                <ul class="sub-menu collapse" id="new">
+                    <li>Remisión Examen</li>
+                    <li>Registros</li>
+                    <li>Otros</li>
+                </ul>
+
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-user-tie fa-lg"></i> Profile
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fa fa-users fa-lg"></i> Users
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-tachometer-alt fa-lg"></i> Empresa
+                    </a>
+                </li>
+
+            </ul>
+
+            <div>
+                <form>
+                    <!--Footer-->
+                    <h6 class="footer-company " align="center">Copyright &copy; 2020 - All Rights Reserved - <a href="# ">PROGRESCOL LTDA</a> </h6>
+                    <h6 class="footer-company " align="center"> Diseñada por: <a target="_blank " href="https://# " title="Free Website Templates ">SAM_ELL</a></h6>
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+    <!--INICIO FORMULARIO BD EMPRESA-->
+    <div class="Contenedor">
+        <div id="tab1" class="ContentForm">
+            <form method="post" id="f5" class="form-horizontal" enctype="multipart/form-data" action="http://">
+                <div class="form-body">
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <img style="width: 200px; height: 200px; border-radius: 15px" src="img/1.png">
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <label for="nit" class="control-label ">* Nit</label>
+                            <input type="text" id="nit" name="nit" class="form-control obligatorio" maxlength="30" value="900357186" />
+                        </div>
+                        <div class="col-md-6">
+                            <label for="razonsocial" class="control-label">* Razón social</label>
+                            <input type="text" id="razonsocial" name="razonsocial" maxlength="200" class="form-control obligatorio" value="NYGSOFT" />
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-3">
+                            <label for="telefono" class="control-label ">Teléfono</label>
+                            <div class="input-group">
+                                <input type="text" id="telefono" name="telefono" class="form-control number" maxlength="10" value="6611219" />
+                                <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="celular" class="control-label ">Celular</label>
+                            <div class="input-group">
+                                <input type="text" id="celular" name="celular" class="form-control number" maxlength="10" value="3157821206" />
+                                <div class="input-group-addon"><i class="fa fa-phone"></i></div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="direccion" class="control-label ">Dirección</label>
+                            <input type="text" id="direccion" name="direccion" maxlength="50" class="form-control" value="TRV 72B N 31D-17" />
+                        </div>
+                        <div class="col-md-3">
+                            <label for="ciudad" class="control-label ">Ciudad</label>
+                            <select id="ciudad" name="ciudad" class="form-control">
+            <option value="">::Seleccionar::</option>
+                                                                        <option  value="5">Antioquia  - ABEJORRAL</option>
+                                                                        <option  value="6">Antioquia  - ABRIAQUI</option>
+                                                                        <option  value="7">Antioquia  - ALEJANDRIA</option>
+                                                                        <option  value="8">Antioquia  - AMAGA</option>
+                                                                        <option  value="9">Antioquia  - AMALFI</option>
+                                                                        <option  value="10">Antioquia  - ANDES</option>
+                                                                        <option  value="11">Antioquia  - ANGELOPOLIS</option>
+                                                                        <option  value="12">Antioquia  - ANGOSTURA</option>
+                                                                        <option  value="13">Antioquia  - ANORI</option>
+                                                                        <option  value="15">Antioquia  - ANZA</option>
+                                                                        <option  value="16">Antioquia  - APARTADO</option>
+                                                                        <option  value="17">Antioquia  - ARBOLETES</option>
+                                                                        <option  value="18">Antioquia  - ARGELIA</option>
+                                                                        <option  value="19">Antioquia  - ARMENIA</option>
+                                                                        <option  value="21">Antioquia  - BARBOSA</option>
+                                                                        <option  value="22">Antioquia  - BELLO</option>
+                                                                        <option  value="20">Antioquia  - BELMIRA</option>
+                                                                        <option  value="23">Antioquia  - BETANIA</option>
+                                                                        <option  value="24">Antioquia  - BETULIA</option>
+                                                                        <option  value="26">Antioquia  - BRICEÑO</option>
+                                                                        <option  value="27">Antioquia  - BURITICA</option>
+                                                                        <option  value="28">Antioquia  - CACERES</option>
+                                                                        <option  value="29">Antioquia  - CAICEDO</option>
+                                                                        <option  value="30">Antioquia  - CALDAS</option>
+                                                                        <option  value="31">Antioquia  - CAMPAMENTO</option>
+                                                                        <option  value="32">Antioquia  - CAÑASGORDAS</option>
+                                                                        <option  value="33">Antioquia  - CARACOLI</option>
+                                                                        <option  value="34">Antioquia  - CARAMANTA</option>
+                                                                        <option  value="35">Antioquia  - CAREPA</option>
+                                                                        <option  value="37">Antioquia  - CAROLINA</option>
+                                                                        <option  value="38">Antioquia  - CAUCASIA</option>
+                                                                        <option  value="39">Antioquia  - CHIGORODO</option>
+                                                                        <option  value="40">Antioquia  - CISNEROS</option>
+                                                                        <option  value="25">Antioquia  - CIUDAD BOLIVAR</option>
+                                                                        <option  value="41">Antioquia  - COCORNA</option>
+                                                                        <option  value="42">Antioquia  - CONCEPCION</option>
+                                                                        <option  value="43">Antioquia  - CONCORDIA</option>
+                                                                        <option  value="44">Antioquia  - COPACABANA</option>
+                                                                        <option  value="45">Antioquia  - DABEIRA</option>
+                                                                        <option  value="46">Antioquia  - DON MATIAS</option>
+                                                                        <option  value="47">Antioquia  - EBEJICO</option>
+                                                                        <option  value="48">Antioquia  - EL BAGRE</option>
+                                                                        <option  value="36">Antioquia  - EL CARMEN DEL VIBORAL</option>
+                                                                        <option  value="109">Antioquia  - EL SANTUARIO</option>
+                                                                        <option  value="49">Antioquia  - ENTRERIOS</option>
+                                                                        <option  value="50">Antioquia  - ENTRERRIOS</option>
+                                                                        <option  value="51">Antioquia  - ENVIGADO</option>
+                                                                        <option  value="52">Antioquia  - FREDONIA</option>
+                                                                        <option  value="53">Antioquia  - FRONTINO</option>
+                                                                        <option  value="54">Antioquia  - GIRALDO</option>
+                                                                        <option  value="55">Antioquia  - GIRARDOTA</option>
+                                                                        <option  value="56">Antioquia  - GOMEZ PLATA</option>
+                                                                        <option  value="57">Antioquia  - GRANADA</option>
+                                                                        <option  value="58">Antioquia  - GUADALUPE</option>
+                                                                        <option  value="59">Antioquia  - GUARNE</option>
+                                                                        <option  value="60">Antioquia  - GUATAPE</option>
+                                                                        <option  value="61">Antioquia  - HELICONIA</option>
+                                                                        <option  value="62">Antioquia  - HISPANA</option>
+                                                                        <option  value="63">Antioquia  - ITAGUI</option>
+                                                                        <option  value="64">Antioquia  - ITUANGO</option>
+                                                                        <option  value="65">Antioquia  - JARDIN</option>
+                                                                        <option  value="66">Antioquia  - JERICO</option>
+                                                                        <option  value="67">Antioquia  - LA CEJA</option>
+                                                                        <option  value="68">Antioquia  - LA ESTRELLA</option>
+                                                                        <option  value="69">Antioquia  - LA MAGDALENA</option>
+                                                                        <option  value="70">Antioquia  - LA PINTADA</option>
+                                                                        <option  value="71">Antioquia  - LA UNION</option>
+                                                                        <option  value="72">Antioquia  - LIBORINA</option>
+                                                                        <option  value="73">Antioquia  - MACEO</option>
+                                                                        <option  value="74">Antioquia  - MARINILLA</option>
+                                                                        <option  value="2">Antioquia  - MEDELLÍN</option>
+                                                                        <option  value="75">Antioquia  - MONTEBELLO</option>
+                                                                        <option  value="76">Antioquia  - MURINDO</option>
+                                                                        <option  value="77">Antioquia  - MUTATA</option>
+                                                                        <option  value="78">Antioquia  - NARIÑO</option>
+                                                                        <option  value="80">Antioquia  - NECHI</option>
+                                                                        <option  value="79">Antioquia  - NECOCLI</option>
+                                                                        <option  value="81">Antioquia  - OLAYA</option>
+                                                                        <option  value="82">Antioquia  - PEÑOL</option>
+                                                                        <option  value="83">Antioquia  - PEQUE</option>
+                                                                        <option  value="84">Antioquia  - PUEBLORRICO</option>
+                                                                        <option  value="85">Antioquia  - PUERTO BERRIO</option>
+                                                                        <option  value="86">Antioquia  - PUERTO NARE</option>
+                                                                        <option  value="87">Antioquia  - PUERTO TRIUNFO</option>
+                                                                        <option  value="88">Antioquia  - REMEDIOS</option>
+                                                                        <option  value="89">Antioquia  - RETIRO</option>
+                                                                        <option  value="90">Antioquia  - RIONEGRO</option>
+                                                                        <option  value="91">Antioquia  - SABANALARGA</option>
+                                                                        <option  value="92">Antioquia  - SABANETA</option>
+                                                                        <option  value="93">Antioquia  - SALGAR</option>
+                                                                        <option  value="94">Antioquia  - SAN ANDRES</option>
+                                                                        <option  value="95">Antioquia  - SAN CARLOS</option>
+                                                                        <option  value="96">Antioquia  - SAN FRANCISCO</option>
+                                                                        <option  value="97">Antioquia  - SAN JERONIMO</option>
+                                                                        <option  value="98">Antioquia  - SAN JOSE DE LA MONTAÑA</option>
+                                                                        <option  value="99">Antioquia  - SAN JUAN DE URABA</option>
+                                                                        <option  value="100">Antioquia  - SAN LUIS</option>
+                                                                        <option  value="101">Antioquia  - SAN PEDRO</option>
+                                                                        <option  value="102">Antioquia  - SAN PEDRO URABA</option>
+                                                                        <option  value="103">Antioquia  - SAN RAFAEL</option>
+                                                                        <option  value="104">Antioquia  - SAN ROQUE</option>
+                                                                        <option  value="105">Antioquia  - SAN VICENTE</option>
+                                                                        <option  value="106">Antioquia  - SANTA BARBARA</option>
+                                                                        <option  value="107">Antioquia  - SANTA ROSA DE OSOS</option>
+                                                                        <option  value="14">Antioquia  - SANTAFE DE ANTIOQUIA</option>
+                                                                        <option  value="108">Antioquia  - SANTO DOMINGO</option>
+                                                                        <option  value="110">Antioquia  - SEGOVIA</option>
+                                                                        <option  value="111">Antioquia  - SONSON</option>
+                                                                        <option  value="112">Antioquia  - SOPETRAN</option>
+                                                                        <option  value="113">Antioquia  - TAMESIS</option>
+                                                                        <option  value="114">Antioquia  - TARAZA</option>
+                                                                        <option  value="115">Antioquia  - TARSO</option>
+                                                                        <option  value="116">Antioquia  - TITIRIBI</option>
+                                                                        <option  value="117">Antioquia  - TOLEDO</option>
+                                                                        <option  value="118">Antioquia  - TURBO</option>
+                                                                        <option  value="119">Antioquia  - URAMITA</option>
+                                                                        <option  value="120">Antioquia  - URRAO</option>
+                                                                        <option  value="121">Antioquia  - VALDIVIA</option>
+                                                                        <option  value="122">Antioquia  - VALPARAISO</option>
+                                                                        <option  value="123">Antioquia  - VEGACHI</option>
+                                                                        <option  value="124">Antioquia  - VENECIA</option>
+                                                                        <option  value="125">Antioquia  - VIGIA DEL FUERTE</option>
+                                                                        <option  value="126">Antioquia  - YALI</option>
+                                                                        <option  value="127">Antioquia  - YARUMAL</option>
+                                                                        <option  value="128">Antioquia  - YOLOMBO</option>
+                                                                        <option  value="129">Antioquia  - YONDO</option>
+                                                                        <option  value="130">Antioquia  - ZARAGOZA</option>
+                                                                        <option  value="132">Atlántico - BARANOA</option>
+                                                                        <option  value="131">Atlántico - BARRANQUILLA</option>
+                                                                        <option  value="133">Atlántico - CAMPO DE LA CRUZ</option>
+                                                                        <option  value="134">Atlántico - CANDELARIA</option>
+                                                                        <option  value="135">Atlántico - GALAPA</option>
+                                                                        <option  value="136">Atlántico - JUAN DE ACOSTA</option>
+                                                                        <option  value="137">Atlántico - LURUACO</option>
+                                                                        <option  value="138">Atlántico - MALAMBO</option>
+                                                                        <option  value="139">Atlántico - MANATI</option>
+                                                                        <option  value="140">Atlántico - PALMAR DE VARELA</option>
+                                                                        <option  value="141">Atlántico - PIOJO</option>
+                                                                        <option  value="142">Atlántico - POLONUEVO</option>
+                                                                        <option  value="143">Atlántico - PONEDERA</option>
+                                                                        <option  value="144">Atlántico - PUERTO COLOMBIA</option>
+                                                                        <option  value="145">Atlántico - REPELON</option>
+                                                                        <option  value="147">Atlántico - SABANALARGA</option>
+                                                                        <option  value="146">Atlántico - SABANGRANDE</option>
+                                                                        <option  value="148">Atlántico - SANTA LUCIA</option>
+                                                                        <option  value="149">Atlántico - SANTO TOMAS</option>
+                                                                        <option  value="150">Atlántico - SOLEDAD</option>
+                                                                        <option  value="151">Atlántico - SUAN</option>
+                                                                        <option  value="152">Atlántico - TUBARA</option>
+                                                                        <option  value="153">Atlántico - USIACURI</option>
+                                                                        <option  value="1">Bogotá D.C. - Bogotá</option>
+                                                                        <option  value="161">Bolívar - ACHI</option>
+                                                                        <option  value="162">Bolívar - ALTOS DEL ROSARIO</option>
+                                                                        <option  value="163">Bolívar - ARENAL</option>
+                                                                        <option  value="164">Bolívar - ARJONA</option>
+                                                                        <option  value="165">Bolívar - ARROYOHONDO</option>
+                                                                        <option  value="166">Bolívar - BARRANCO DE LOBA</option>
+                                                                        <option  value="167">Bolívar - CALAMAR</option>
+                                                                        <option  value="168">Bolívar - CANTAGALLO</option>
+                                                                        <option selected value="160">Bolívar - CARTAGENA</option>
+                                                                        <option  value="169">Bolívar - CICUCO</option>
+                                                                        <option  value="171">Bolívar - CLEMENCIA</option>
+                                                                        <option  value="170">Bolívar - CORDOBA</option>
+                                                                        <option  value="172">Bolívar - EL CARMEN DEL BOLIVAR</option>
+                                                                        <option  value="173">Bolívar - EL GUAMO</option>
+                                                                        <option  value="174">Bolívar - EL PEÑON</option>
+                                                                        <option  value="175">Bolívar - HATILLO DE LOBA</option>
+                                                                        <option  value="176">Bolívar - MAGANGUE</option>
+                                                                        <option  value="177">Bolívar - MAHATES</option>
+                                                                        <option  value="178">Bolívar - MARGARITA</option>
+                                                                        <option  value="179">Bolívar - MARIA LA BAJA</option>
+                                                                        <option  value="181">Bolívar - MOMPOS</option>
+                                                                        <option  value="180">Bolívar - MONTECRISTO</option>
+                                                                        <option  value="182">Bolívar - MORALES</option>
+                                                                        <option  value="183">Bolívar - PINILLOS</option>
+                                                                        <option  value="184">Bolívar - PISBA</option>
+                                                                        <option  value="185">Bolívar - REGIDOR</option>
+                                                                        <option  value="186">Bolívar - RIO VIEJO</option>
+                                                                        <option  value="187">Bolívar - SAN CRISTOBAL</option>
+                                                                        <option  value="188">Bolívar - SAN ESTANISLAO</option>
+                                                                        <option  value="189">Bolívar - SAN FERNARDO</option>
+                                                                        <option  value="190">Bolívar - SAN JACINTO</option>
+                                                                        <option  value="191">Bolívar - SAN JACINTO DEL CAUCA</option>
+                                                                        <option  value="192">Bolívar - SAN JUAN NEPOMUCENO</option>
+                                                                        <option  value="193">Bolívar - SAN MARTIN DE LOBA</option>
+                                                                        <option  value="194">Bolívar - SAN PABLO</option>
+                                                                        <option  value="195">Bolívar - SANTA CATALINA</option>
+                                                                        <option  value="196">Bolívar - SANTA ROSA</option>
+                                                                        <option  value="197">Bolívar - SANTA ROSA DEL SUR</option>
+                                                                        <option  value="198">Bolívar - SIMITI</option>
+                                                                        <option  value="199">Bolívar - SOPLAVIENTO</option>
+                                                                        <option  value="200">Bolívar - TALAIGA NUEVO</option>
+                                                                        <option  value="201">Bolívar - TIQUISIO</option>
+                                                                        <option  value="202">Bolívar - TURBACO</option>
+                                                                        <option  value="203">Bolívar - TURBANA</option>
+                                                                        <option  value="204">Bolívar - VILLANUEVA</option>
+                                                                        <option  value="205">Bolívar - ZAMBRANO</option>
+                                                                        <option  value="207">Boyacá - ALMEIDA</option>
+                                                                        <option  value="208">Boyacá - AQUITANIA</option>
+                                                                        <option  value="209">Boyacá - ARCABUCO</option>
+                                                                        <option  value="210">Boyacá - BELEN</option>
+                                                                        <option  value="211">Boyacá - BERBEO</option>
+                                                                        <option  value="212">Boyacá - BETEITIVA</option>
+                                                                        <option  value="213">Boyacá - BOAVITA</option>
+                                                                        <option  value="214">Boyacá - BOYACA</option>
+                                                                        <option  value="215">Boyacá - BRICEÑO</option>
+                                                                        <option  value="216">Boyacá - BUENAVISTA</option>
+                                                                        <option  value="217">Boyacá - BUSBANZA</option>
+                                                                        <option  value="218">Boyacá - CALDAS</option>
+                                                                        <option  value="219">Boyacá - CAMPOHERMOSO</option>
+                                                                        <option  value="220">Boyacá - CERINZA</option>
+                                                                        <option  value="221">Boyacá - CHINAVITA</option>
+                                                                        <option  value="222">Boyacá - CHIQUINQUIRA</option>
+                                                                        <option  value="235">Boyacá - CHIQUIZA</option>
+                                                                        <option  value="223">Boyacá - CHISCAS</option>
+                                                                        <option  value="224">Boyacá - CHITA</option>
+                                                                        <option  value="225">Boyacá - CHITARAQUE</option>
+                                                                        <option  value="226">Boyacá - CHIVATA</option>
+                                                                        <option  value="236">Boyacá - CHIVOR</option>
+                                                                        <option  value="227">Boyacá - CIENAGA</option>
+                                                                        <option  value="228">Boyacá - COMBITA</option>
+                                                                        <option  value="229">Boyacá - COPER</option>
+                                                                        <option  value="230">Boyacá - CORRALES</option>
+                                                                        <option  value="231">Boyacá - COVARACHIA</option>
+                                                                        <option  value="232">Boyacá - CUBARA</option>
+                                                                        <option  value="233">Boyacá - CUCAITA</option>
+                                                                        <option  value="234">Boyacá - CUITIVA</option>
+                                                                        <option  value="237">Boyacá - DUITAMA</option>
+                                                                        <option  value="238">Boyacá - EL COCUY</option>
+                                                                        <option  value="239">Boyacá - EL ESPINO</option>
+                                                                        <option  value="240">Boyacá - FIRAVITOBA</option>
+                                                                        <option  value="241">Boyacá - FLORESTA</option>
+                                                                        <option  value="242">Boyacá - GACHANTIVA</option>
+                                                                        <option  value="243">Boyacá - GAMEZA</option>
+                                                                        <option  value="244">Boyacá - GARAGOA</option>
+                                                                        <option  value="245">Boyacá - GUACAMAYAS</option>
+                                                                        <option  value="246">Boyacá - GUATEQUE</option>
+                                                                        <option  value="247">Boyacá - GUAYATA</option>
+                                                                        <option  value="248">Boyacá - GUICAN</option>
+                                                                        <option  value="249">Boyacá - IZA</option>
+                                                                        <option  value="250">Boyacá - JENESANO</option>
+                                                                        <option  value="251">Boyacá - JERICO</option>
+                                                                        <option  value="253">Boyacá - LA CAPILLA</option>
+                                                                        <option  value="255">Boyacá - LA UVITA</option>
+                                                                        <option  value="254">Boyacá - LA VICTORIA</option>
+                                                                        <option  value="252">Boyacá - LABRANZA GRANDE</option>
+                                                                        <option  value="257">Boyacá - MACANAL</option>
+                                                                        <option  value="258">Boyacá - MARIPI</option>
+                                                                        <option  value="259">Boyacá - MIRAFLORES</option>
+                                                                        <option  value="260">Boyacá - MONGUA</option>
+                                                                        <option  value="261">Boyacá - MONGUI</option>
+                                                                        <option  value="262">Boyacá - MONIQUIRA</option>
+                                                                        <option  value="263">Boyacá - MOTAVITA</option>
+                                                                        <option  value="264">Boyacá - MUZO</option>
+                                                                        <option  value="265">Boyacá - NOBSA</option>
+                                                                        <option  value="266">Boyacá - NUEVO COLON</option>
+                                                                        <option  value="267">Boyacá - OICATA</option>
+                                                                        <option  value="268">Boyacá - OTANCHE</option>
+                                                                        <option  value="269">Boyacá - PACHAVITA</option>
+                                                                        <option  value="270">Boyacá - PAEZ</option>
+                                                                        <option  value="271">Boyacá - PAIPA</option>
+                                                                        <option  value="272">Boyacá - PAJARITO</option>
+                                                                        <option  value="273">Boyacá - PANQUEBA</option>
+                                                                        <option  value="274">Boyacá - PAUNA</option>
+                                                                        <option  value="275">Boyacá - PAYA</option>
+                                                                        <option  value="276">Boyacá - PAZ DE RIO</option>
+                                                                        <option  value="277">Boyacá - PESCA</option>
+                                                                        <option  value="278">Boyacá - PUERTO BOYACA</option>
+                                                                        <option  value="279">Boyacá - QUIPAMA</option>
+                                                                        <option  value="280">Boyacá - RAMIRIQUI</option>
+                                                                        <option  value="281">Boyacá - RAQUIRA</option>
+                                                                        <option  value="282">Boyacá - RONDON</option>
+                                                                        <option  value="283">Boyacá - SABOYA</option>
+                                                                        <option  value="284">Boyacá - SACHICA</option>
+                                                                        <option  value="285">Boyacá - SAMACA</option>
+                                                                        <option  value="286">Boyacá - SAN EDUARDO</option>
+                                                                        <option  value="287">Boyacá - SAN JOSE DE PARE</option>
+                                                                        <option  value="288">Boyacá - SAN LUIS DE GACENO</option>
+                                                                        <option  value="289">Boyacá - SAN MATEO</option>
+                                                                        <option  value="290">Boyacá - SAN MIGUEL DE SEMA</option>
+                                                                        <option  value="291">Boyacá - SAN PABLO DE BORBUR</option>
+                                                                        <option  value="293">Boyacá - SANTA MARIA</option>
+                                                                        <option  value="294">Boyacá - SANTA ROSA DE VITERBO</option>
+                                                                        <option  value="295">Boyacá - SANTA SOFIA</option>
+                                                                        <option  value="292">Boyacá - SANTANA</option>
+                                                                        <option  value="296">Boyacá - SATIVANORTE</option>
+                                                                        <option  value="297">Boyacá - SATIVASUR</option>
+                                                                        <option  value="298">Boyacá - SIACHOQUE</option>
+                                                                        <option  value="299">Boyacá - SOATA</option>
+                                                                        <option  value="301">Boyacá - SOCHA</option>
+                                                                        <option  value="300">Boyacá - SOCOTA</option>
+                                                                        <option  value="302">Boyacá - SOGAMOSO</option>
+                                                                        <option  value="303">Boyacá - SOMONDOCO</option>
+                                                                        <option  value="304">Boyacá - SORA</option>
+                                                                        <option  value="306">Boyacá - SORACA</option>
+                                                                        <option  value="305">Boyacá - SOTAQUIRA</option>
+                                                                        <option  value="307">Boyacá - SUSACON</option>
+                                                                        <option  value="308">Boyacá - SUTAMARCHAN</option>
+                                                                        <option  value="309">Boyacá - SUTATENZA</option>
+                                                                        <option  value="310">Boyacá - TASCO</option>
+                                                                        <option  value="311">Boyacá - TENZA</option>
+                                                                        <option  value="312">Boyacá - TIBANA</option>
+                                                                        <option  value="313">Boyacá - TIBASOSA</option>
+                                                                        <option  value="314">Boyacá - TINJACA</option>
+                                                                        <option  value="315">Boyacá - TIPACOQUE</option>
+                                                                        <option  value="316">Boyacá - TOCA</option>
+                                                                        <option  value="317">Boyacá - TOGUI</option>
+                                                                        <option  value="318">Boyacá - TOPAGA</option>
+                                                                        <option  value="319">Boyacá - TOTA</option>
+                                                                        <option  value="206">Boyacá - TUNJA</option>
+                                                                        <option  value="324">Boyacá - TURMEQUE</option>
+                                                                        <option  value="320">Boyacá - TURUNGUA</option>
+                                                                        <option  value="321">Boyacá - TUTA</option>
+                                                                        <option  value="322">Boyacá - TUTAZA</option>
+                                                                        <option  value="323">Boyacá - UMBITA</option>
+                                                                        <option  value="325">Boyacá - VENTAQUEMADA</option>
+                                                                        <option  value="256">Boyacá - VILLA DE LEYVA</option>
+                                                                        <option  value="326">Boyacá - VIRACACHA</option>
+                                                                        <option  value="327">Boyacá - ZETAQUIRA</option>
+                                                                        <option  value="329">Caldas - AGUADAS</option>
+                                                                        <option  value="330">Caldas - ANSERMA</option>
+                                                                        <option  value="331">Caldas - ARANZAZU</option>
+                                                                        <option  value="332">Caldas - BELALCAZAR</option>
+                                                                        <option  value="333">Caldas - CHINCHINA</option>
+                                                                        <option  value="334">Caldas - FILADELFIA</option>
+                                                                        <option  value="335">Caldas - LA DORADA</option>
+                                                                        <option  value="336">Caldas - LA MERCED</option>
+                                                                        <option  value="328">Caldas - MANIZALES</option>
+                                                                        <option  value="337">Caldas - MANZANARES</option>
+                                                                        <option  value="338">Caldas - MARMATO</option>
+                                                                        <option  value="339">Caldas - MARQUETALIA</option>
+                                                                        <option  value="340">Caldas - MARULANDA</option>
+                                                                        <option  value="341">Caldas - NEIRA</option>
+                                                                        <option  value="342">Caldas - NORCAISA</option>
+                                                                        <option  value="343">Caldas - PACORA</option>
+                                                                        <option  value="344">Caldas - PALESTINA</option>
+                                                                        <option  value="345">Caldas - PENSILVANIA</option>
+                                                                        <option  value="346">Caldas - RIOSUCIO</option>
+                                                                        <option  value="347">Caldas - RISARALDA</option>
+                                                                        <option  value="348">Caldas - SALAMINA</option>
+                                                                        <option  value="349">Caldas - SAMANA</option>
+                                                                        <option  value="350">Caldas - SAN JOSE</option>
+                                                                        <option  value="351">Caldas - SUPIA</option>
+                                                                        <option  value="352">Caldas - VICTORIA</option>
+                                                                        <option  value="353">Caldas - VILLAMARIA</option>
+                                                                        <option  value="354">Caldas - VITERBO</option>
+                                                                        <option  value="356">Caquetá - ALBANIA</option>
+                                                                        <option  value="357">Caquetá - BELEN DE LOS ANDAQUIES</option>
+                                                                        <option  value="358">Caquetá - CARTAGENA DEL CHAIRA</option>
+                                                                        <option  value="359">Caquetá - CURILLO</option>
+                                                                        <option  value="360">Caquetá - EL DONCELLO</option>
+                                                                        <option  value="361">Caquetá - EL PAUJIL</option>
+                                                                        <option  value="355">Caquetá - FLORENCIA</option>
+                                                                        <option  value="362">Caquetá - GETUCHA</option>
+                                                                        <option  value="363">Caquetá - LA MONTAÑITA</option>
+                                                                        <option  value="364">Caquetá - MILAN</option>
+                                                                        <option  value="365">Caquetá - MORELIA</option>
+                                                                        <option  value="366">Caquetá - PUERTO RICO</option>
+                                                                        <option  value="367">Caquetá - SAN JOSE DEL FRAGUA</option>
+                                                                        <option  value="368">Caquetá - SAN VICENTE DEL CAGUAN</option>
+                                                                        <option  value="369">Caquetá - SOLANO</option>
+                                                                        <option  value="370">Caquetá - SOLITA</option>
+                                                                        <option  value="371">Caquetá - SOLITA</option>
+                                                                        <option  value="372">Caquetá - VALPARAISO</option>
+                                                                        <option  value="1046">Casanare - YOPAL</option>
+                                                                        <option  value="374">Cauca - ALMAGUER</option>
+                                                                        <option  value="375">Cauca - ARGELIA</option>
+                                                                        <option  value="376">Cauca - BALBOA</option>
+                                                                        <option  value="377">Cauca - BOLIVAR</option>
+                                                                        <option  value="378">Cauca - BUENOS AIRES</option>
+                                                                        <option  value="379">Cauca - CAJIBIO</option>
+                                                                        <option  value="380">Cauca - CALDONO</option>
+                                                                        <option  value="381">Cauca - CALOTO</option>
+                                                                        <option  value="382">Cauca - CORINTO</option>
+                                                                        <option  value="383">Cauca - EL TAMBO</option>
+                                                                        <option  value="384">Cauca - FLORENCIA</option>
+                                                                        <option  value="385">Cauca - GUAPI</option>
+                                                                        <option  value="386">Cauca - INZA</option>
+                                                                        <option  value="387">Cauca - JAMBALO</option>
+                                                                        <option  value="388">Cauca - LA SIERRA</option>
+                                                                        <option  value="389">Cauca - LA VEGA</option>
+                                                                        <option  value="390">Cauca - LOPEZ</option>
+                                                                        <option  value="391">Cauca - MERCADERES</option>
+                                                                        <option  value="392">Cauca - MIRANDA</option>
+                                                                        <option  value="393">Cauca - MORALES</option>
+                                                                        <option  value="394">Cauca - PADILLA</option>
+                                                                        <option  value="395">Cauca - PAEZ</option>
+                                                                        <option  value="406">Cauca - PAISPAMBA</option>
+                                                                        <option  value="396">Cauca - PATIA</option>
+                                                                        <option  value="397">Cauca - PIAMONTE</option>
+                                                                        <option  value="398">Cauca - PIENDAMO</option>
+                                                                        <option  value="373">Cauca - POPAYAN</option>
+                                                                        <option  value="399">Cauca - PUERTO TEJADA</option>
+                                                                        <option  value="400">Cauca - PURACE</option>
+                                                                        <option  value="401">Cauca - ROSAS</option>
+                                                                        <option  value="402">Cauca - SAN SEBASTIAN</option>
+                                                                        <option  value="404">Cauca - SANTA ROSA</option>
+                                                                        <option  value="403">Cauca - SANTANDER DE QUILICHAO</option>
+                                                                        <option  value="405">Cauca - SILVIA</option>
+                                                                        <option  value="407">Cauca - SUAREZ</option>
+                                                                        <option  value="408">Cauca - SUCRE</option>
+                                                                        <option  value="409">Cauca - TIMBIO</option>
+                                                                        <option  value="410">Cauca - TIMBIQUI</option>
+                                                                        <option  value="411">Cauca - TORIBIO</option>
+                                                                        <option  value="412">Cauca - TOTORO</option>
+                                                                        <option  value="413">Cauca - VILLA RICA</option>
+                                                                        <option  value="415">Cesar - AGUACHICA</option>
+                                                                        <option  value="416">Cesar - AGUSTIN CODAZZI</option>
+                                                                        <option  value="417">Cesar - ASTREA</option>
+                                                                        <option  value="418">Cesar - BECERRIL</option>
+                                                                        <option  value="419">Cesar - BOSCONIA</option>
+                                                                        <option  value="420">Cesar - CHIMICAGUA</option>
+                                                                        <option  value="421">Cesar - CHIRIGUANA</option>
+                                                                        <option  value="422">Cesar - CURUMANI</option>
+                                                                        <option  value="423">Cesar - EL COPEY</option>
+                                                                        <option  value="424">Cesar - EL PASO</option>
+                                                                        <option  value="425">Cesar - GAMARRA</option>
+                                                                        <option  value="426">Cesar - GONZALEZ</option>
+                                                                        <option  value="427">Cesar - LA GLORIA</option>
+                                                                        <option  value="428">Cesar - LA JAGUA DE IBIRICO</option>
+                                                                        <option  value="429">Cesar - MANAURE</option>
+                                                                        <option  value="430">Cesar - PAILITAS</option>
+                                                                        <option  value="431">Cesar - PELAYA</option>
+                                                                        <option  value="432">Cesar - PUEBLO BELLO</option>
+                                                                        <option  value="433">Cesar - RIO DE ORO</option>
+                                                                        <option  value="434">Cesar - SAN ALBERTO</option>
+                                                                        <option  value="435">Cesar - SAN DIEGO</option>
+                                                                        <option  value="436">Cesar - SAN MARTIN</option>
+                                                                        <option  value="437">Cesar - TAMALAMEQUE</option>
+                                                                        <option  value="414">Cesar - VALLEDUPAR</option>
+                                                                        <option  value="583">Chocó - ACANDI</option>
+                                                                        <option  value="584">Chocó - ALTO BAUDO</option>
+                                                                        <option  value="585">Chocó - ATRATO</option>
+                                                                        <option  value="586">Chocó - BAGADO</option>
+                                                                        <option  value="587">Chocó - BAHIA SOLANO</option>
+                                                                        <option  value="588">Chocó - BAJO BAUDO</option>
+                                                                        <option  value="589">Chocó - BOJAYA</option>
+                                                                        <option  value="590">Chocó - CONDOTO</option>
+                                                                        <option  value="591">Chocó - EL CARMEN DE ATRATO</option>
+                                                                        <option  value="592">Chocó - EL LITORAL DE SAN JUAN</option>
+                                                                        <option  value="593">Chocó - ITSMINA</option>
+                                                                        <option  value="594">Chocó - JURADO</option>
+                                                                        <option  value="595">Chocó - LLORO</option>
+                                                                        <option  value="596">Chocó - MEDIO ATRATO</option>
+                                                                        <option  value="597">Chocó - MEDIO BAUDO</option>
+                                                                        <option  value="598">Chocó - NOVITA</option>
+                                                                        <option  value="599">Chocó - NUQUI</option>
+                                                                        <option  value="582">Chocó - QUIBDO</option>
+                                                                        <option  value="600">Chocó - RIO QUITO</option>
+                                                                        <option  value="601">Chocó - RIOSUCIO</option>
+                                                                        <option  value="602">Chocó - SAN JOSE DEL PALMAR</option>
+                                                                        <option  value="603">Chocó - SIPI</option>
+                                                                        <option  value="604">Chocó - TADO</option>
+                                                                        <option  value="605">Chocó - UNGUIA</option>
+                                                                        <option  value="606">Chocó - UNION PANAMERICANA</option>
+                                                                        <option  value="439">Córdoba - AYAPEL</option>
+                                                                        <option  value="440">Córdoba - BUENAVISTA</option>
+                                                                        <option  value="441">Córdoba - CANALETE</option>
+                                                                        <option  value="442">Córdoba - CERETE</option>
+                                                                        <option  value="443">Córdoba - CHIMA</option>
+                                                                        <option  value="444">Córdoba - CHINU</option>
+                                                                        <option  value="445">Córdoba - CIENAGA DE ORO</option>
+                                                                        <option  value="446">Córdoba - COTORRA</option>
+                                                                        <option  value="447">Córdoba - LA APARTADA</option>
+                                                                        <option  value="448">Córdoba - LORICA</option>
+                                                                        <option  value="449">Córdoba - LOS CORDOBAS</option>
+                                                                        <option  value="450">Córdoba - MOMIL</option>
+                                                                        <option  value="452">Córdoba - MOÑITOS</option>
+                                                                        <option  value="451">Córdoba - MONTELIBANO</option>
+                                                                        <option  value="438">Córdoba - MONTERIA</option>
+                                                                        <option  value="453">Córdoba - PLANETA RICA</option>
+                                                                        <option  value="454">Córdoba - PUEBLO NUEVO</option>
+                                                                        <option  value="455">Córdoba - PUERTO ESCONDIDO</option>
+                                                                        <option  value="456">Córdoba - PUERTO LIBERTADOR</option>
+                                                                        <option  value="457">Córdoba - PURISIMA</option>
+                                                                        <option  value="458">Córdoba - SAHAGUN</option>
+                                                                        <option  value="459">Córdoba - SAN ANDRES SOTAVENTO</option>
+                                                                        <option  value="460">Córdoba - SAN ANTERO</option>
+                                                                        <option  value="461">Córdoba - SAN BERNARDO DEL VIENTO</option>
+                                                                        <option  value="462">Córdoba - SAN CARLOS</option>
+                                                                        <option  value="463">Córdoba - SAN PELAYO</option>
+                                                                        <option  value="464">Córdoba - TIERRALTA</option>
+                                                                        <option  value="465">Córdoba - VALENCIA</option>
+                                                                        <option  value="466">Cundinamarca - AGUA DE DIOS</option>
+                                                                        <option  value="467">Cundinamarca - ALBAN</option>
+                                                                        <option  value="468">Cundinamarca - ANAPOIMA</option>
+                                                                        <option  value="469">Cundinamarca - ANOLAIMA</option>
+                                                                        <option  value="540">Cundinamarca - APULO</option>
+                                                                        <option  value="470">Cundinamarca - ARBELAEZ</option>
+                                                                        <option  value="471">Cundinamarca - BELTRAN</option>
+                                                                        <option  value="472">Cundinamarca - BITUIMA</option>
+                                                                        <option  value="473">Cundinamarca - BOJACA</option>
+                                                                        <option  value="474">Cundinamarca - CABRERA</option>
+                                                                        <option  value="475">Cundinamarca - CACHIPAY</option>
+                                                                        <option  value="476">Cundinamarca - CAJICA</option>
+                                                                        <option  value="478">Cundinamarca - CAPARRAPI</option>
+                                                                        <option  value="479">Cundinamarca - CAQUEZA</option>
+                                                                        <option  value="480">Cundinamarca - CARMEN DE CARUPA</option>
+                                                                        <option  value="481">Cundinamarca - CHIA</option>
+                                                                        <option  value="482">Cundinamarca - CHIPAQUE</option>
+                                                                        <option  value="483">Cundinamarca - CHOACHI</option>
+                                                                        <option  value="484">Cundinamarca - CHOCONTA</option>
+                                                                        <option  value="485">Cundinamarca - COGUA</option>
+                                                                        <option  value="486">Cundinamarca - COTA</option>
+                                                                        <option  value="487">Cundinamarca - CUCUNUBA</option>
+                                                                        <option  value="477">Cundinamarca - EL CANTON DE SAN PABLO</option>
+                                                                        <option  value="489">Cundinamarca - EL COLEGIO</option>
+                                                                        <option  value="490">Cundinamarca - EL PEÑON</option>
+                                                                        <option  value="491">Cundinamarca - EL ROSAL</option>
+                                                                        <option  value="492">Cundinamarca - FACATATIVA</option>
+                                                                        <option  value="493">Cundinamarca - FOMEQUE</option>
+                                                                        <option  value="494">Cundinamarca - FOSCA</option>
+                                                                        <option  value="495">Cundinamarca - FUNZA</option>
+                                                                        <option  value="496">Cundinamarca - FUQUENE</option>
+                                                                        <option  value="497">Cundinamarca - FUSAGASUGA</option>
+                                                                        <option  value="498">Cundinamarca - GACHALA</option>
+                                                                        <option  value="499">Cundinamarca - GACHANCIPA</option>
+                                                                        <option  value="500">Cundinamarca - GACHETA</option>
+                                                                        <option  value="501">Cundinamarca - GAMA</option>
+                                                                        <option  value="502">Cundinamarca - GIRARDOT</option>
+                                                                        <option  value="503">Cundinamarca - GRANADA</option>
+                                                                        <option  value="504">Cundinamarca - GUACHETA</option>
+                                                                        <option  value="505">Cundinamarca - GUADUAS</option>
+                                                                        <option  value="506">Cundinamarca - GUASCA</option>
+                                                                        <option  value="507">Cundinamarca - GUATAQUI</option>
+                                                                        <option  value="508">Cundinamarca - GUATAVITA</option>
+                                                                        <option  value="488">Cundinamarca - GUAYABAL DE SIQUIMA</option>
+                                                                        <option  value="509">Cundinamarca - GUAYABETAL</option>
+                                                                        <option  value="510">Cundinamarca - GUTIERREZ</option>
+                                                                        <option  value="511">Cundinamarca - JERUSALEN</option>
+                                                                        <option  value="512">Cundinamarca - JUNIN</option>
+                                                                        <option  value="513">Cundinamarca - LA CALERA</option>
+                                                                        <option  value="514">Cundinamarca - LA MESA</option>
+                                                                        <option  value="515">Cundinamarca - LA PALMA</option>
+                                                                        <option  value="516">Cundinamarca - LA PEÑA</option>
+                                                                        <option  value="517">Cundinamarca - LA VEGA</option>
+                                                                        <option  value="518">Cundinamarca - LENGUAZAQUE</option>
+                                                                        <option  value="519">Cundinamarca - MACHETA</option>
+                                                                        <option  value="520">Cundinamarca - MADRID</option>
+                                                                        <option  value="521">Cundinamarca - MANTA</option>
+                                                                        <option  value="522">Cundinamarca - MEDINA</option>
+                                                                        <option  value="523">Cundinamarca - MOSQUERA</option>
+                                                                        <option  value="524">Cundinamarca - NARIÑO</option>
+                                                                        <option  value="525">Cundinamarca - NEMOCON</option>
+                                                                        <option  value="526">Cundinamarca - NILO</option>
+                                                                        <option  value="527">Cundinamarca - NIMAINA</option>
+                                                                        <option  value="528">Cundinamarca - NOCAIMA</option>
+                                                                        <option  value="530">Cundinamarca - PACHO</option>
+                                                                        <option  value="531">Cundinamarca - PAIME</option>
+                                                                        <option  value="532">Cundinamarca - PANDI</option>
+                                                                        <option  value="533">Cundinamarca - PARATEBUENO</option>
+                                                                        <option  value="534">Cundinamarca - PASCA</option>
+                                                                        <option  value="535">Cundinamarca - PUERTO SALGAR</option>
+                                                                        <option  value="536">Cundinamarca - PULI</option>
+                                                                        <option  value="537">Cundinamarca - QUEBRADANEGRA</option>
+                                                                        <option  value="538">Cundinamarca - QUETAME</option>
+                                                                        <option  value="539">Cundinamarca - QUIPILE</option>
+                                                                        <option  value="541">Cundinamarca - RICAURTE</option>
+                                                                        <option  value="542">Cundinamarca - SAN ANTONIO DEL TEQUENDAMA</option>
+                                                                        <option  value="543">Cundinamarca - SAN BERNARDO</option>
+                                                                        <option  value="544">Cundinamarca - SAN CAYETANO</option>
+                                                                        <option  value="545">Cundinamarca - SAN FRANCISCO</option>
+                                                                        <option  value="546">Cundinamarca - SAN JUAN DE RIO SECO</option>
+                                                                        <option  value="547">Cundinamarca - SASAIMA</option>
+                                                                        <option  value="548">Cundinamarca - SESQUILE</option>
+                                                                        <option  value="549">Cundinamarca - SIBATE</option>
+                                                                        <option  value="550">Cundinamarca - SILVANIA</option>
+                                                                        <option  value="551">Cundinamarca - SIMIJACA</option>
+                                                                        <option  value="552">Cundinamarca - SOACHA</option>
+                                                                        <option  value="553">Cundinamarca - SOPO</option>
+                                                                        <option  value="554">Cundinamarca - SUBACHOQUE</option>
+                                                                        <option  value="555">Cundinamarca - SUESCA</option>
+                                                                        <option  value="556">Cundinamarca - SUPATA</option>
+                                                                        <option  value="557">Cundinamarca - SUSA</option>
+                                                                        <option  value="558">Cundinamarca - SUTATAUSA</option>
+                                                                        <option  value="559">Cundinamarca - TABIO</option>
+                                                                        <option  value="560">Cundinamarca - TAUSA</option>
+                                                                        <option  value="561">Cundinamarca - TENA</option>
+                                                                        <option  value="562">Cundinamarca - TENJO</option>
+                                                                        <option  value="563">Cundinamarca - TIBACUY</option>
+                                                                        <option  value="564">Cundinamarca - TIBIRITA</option>
+                                                                        <option  value="565">Cundinamarca - TOCAIMA</option>
+                                                                        <option  value="566">Cundinamarca - TOCANCIPA</option>
+                                                                        <option  value="567">Cundinamarca - TOPAIPI</option>
+                                                                        <option  value="568">Cundinamarca - UBALA</option>
+                                                                        <option  value="569">Cundinamarca - UBAQUE</option>
+                                                                        <option  value="570">Cundinamarca - UBATE</option>
+                                                                        <option  value="571">Cundinamarca - UNE</option>
+                                                                        <option  value="572">Cundinamarca - UTICA</option>
+                                                                        <option  value="529">Cundinamarca - VENECIA</option>
+                                                                        <option  value="573">Cundinamarca - VERGARA</option>
+                                                                        <option  value="574">Cundinamarca - VIANI</option>
+                                                                        <option  value="575">Cundinamarca - VILLAGOMEZ</option>
+                                                                        <option  value="576">Cundinamarca - VILLAPINZON</option>
+                                                                        <option  value="577">Cundinamarca - VILLETA</option>
+                                                                        <option  value="578">Cundinamarca - VIOTA</option>
+                                                                        <option  value="579">Cundinamarca - YACOPI</option>
+                                                                        <option  value="580">Cundinamarca - ZIPACON</option>
+                                                                        <option  value="581">Cundinamarca - ZIPAQUIRA</option>
+                                                                        <option  value="646">Guajira - BARRANCAS</option>
+                                                                        <option  value="647">Guajira - DIBULLA</option>
+                                                                        <option  value="648">Guajira - DISTRACCION</option>
+                                                                        <option  value="649">Guajira - EL MOLINO</option>
+                                                                        <option  value="650">Guajira - FONSECA</option>
+                                                                        <option  value="651">Guajira - HATONUEVO</option>
+                                                                        <option  value="652">Guajira - LA JAGUA DEL PILAR</option>
+                                                                        <option  value="653">Guajira - MAICAO</option>
+                                                                        <option  value="654">Guajira - MANAURE</option>
+                                                                        <option  value="645">Guajira - RIOHACHA</option>
+                                                                        <option  value="655">Guajira - SAN JUAN DEL CESAR</option>
+                                                                        <option  value="656">Guajira - URIBIA</option>
+                                                                        <option  value="657">Guajira - URUMITA</option>
+                                                                        <option  value="658">Guajira - VILLANUEVA</option>
+                                                                        <option  value="608">Huila - ACEVEDO</option>
+                                                                        <option  value="609">Huila - AGRADO</option>
+                                                                        <option  value="610">Huila - AIPE</option>
+                                                                        <option  value="611">Huila - ALGECIRAS</option>
+                                                                        <option  value="612">Huila - ALTAMIRA</option>
+                                                                        <option  value="613">Huila - BARAYA</option>
+                                                                        <option  value="614">Huila - CAMPOALEGRE</option>
+                                                                        <option  value="615">Huila - CERRO SAN ANTONIO</option>
+                                                                        <option  value="616">Huila - COLOMBIA</option>
+                                                                        <option  value="617">Huila - ELIAS</option>
+                                                                        <option  value="618">Huila - GARZON</option>
+                                                                        <option  value="619">Huila - GIGANTE</option>
+                                                                        <option  value="620">Huila - GUADALUPE</option>
+                                                                        <option  value="621">Huila - HOBO</option>
+                                                                        <option  value="622">Huila - IQUIRA</option>
+                                                                        <option  value="623">Huila - ISNOS</option>
+                                                                        <option  value="624">Huila - LA ARGENTINA</option>
+                                                                        <option  value="625">Huila - LA PLATA</option>
+                                                                        <option  value="626">Huila - NATAGA</option>
+                                                                        <option  value="607">Huila - NEIVA</option>
+                                                                        <option  value="627">Huila - OPORAPA</option>
+                                                                        <option  value="628">Huila - PAICOL</option>
+                                                                        <option  value="629">Huila - PALERMO</option>
+                                                                        <option  value="630">Huila - PALESTINA</option>
+                                                                        <option  value="631">Huila - PITAL</option>
+                                                                        <option  value="632">Huila - PITALITO</option>
+                                                                        <option  value="633">Huila - RIVERA</option>
+                                                                        <option  value="634">Huila - SALADOBLANCO</option>
+                                                                        <option  value="635">Huila - SAN AGUSTIN</option>
+                                                                        <option  value="636">Huila - SANTA MARIA</option>
+                                                                        <option  value="637">Huila - SUAZA</option>
+                                                                        <option  value="638">Huila - TARQUI</option>
+                                                                        <option  value="640">Huila - TELLO</option>
+                                                                        <option  value="641">Huila - TERUEL</option>
+                                                                        <option  value="639">Huila - TESALIA</option>
+                                                                        <option  value="642">Huila - TIMANA</option>
+                                                                        <option  value="643">Huila - VILLAVIEJA</option>
+                                                                        <option  value="644">Huila - YAGUARA</option>
+                                                                        <option  value="660">Magdalena - ALGARROBO</option>
+                                                                        <option  value="661">Magdalena - ARACATACA</option>
+                                                                        <option  value="662">Magdalena - ARIGUANI</option>
+                                                                        <option  value="663">Magdalena - CHIVOLO</option>
+                                                                        <option  value="664">Magdalena - CIENAGA</option>
+                                                                        <option  value="665">Magdalena - CONCORDIA</option>
+                                                                        <option  value="666">Magdalena - EL BANCO</option>
+                                                                        <option  value="667">Magdalena - EL PIÑON</option>
+                                                                        <option  value="668">Magdalena - EL RETEN</option>
+                                                                        <option  value="669">Magdalena - FUNDACION</option>
+                                                                        <option  value="670">Magdalena - GUAMAL</option>
+                                                                        <option  value="671">Magdalena - PEDRAZA</option>
+                                                                        <option  value="672">Magdalena - PIJIÑO DEL CARMEN</option>
+                                                                        <option  value="673">Magdalena - PIVIJAY</option>
+                                                                        <option  value="674">Magdalena - PLATO</option>
+                                                                        <option  value="675">Magdalena - PUEBLOVIEJO</option>
+                                                                        <option  value="676">Magdalena - REMOLINO</option>
+                                                                        <option  value="677">Magdalena - SABANAS DE SAN ANGEL</option>
+                                                                        <option  value="678">Magdalena - SALAMINA</option>
+                                                                        <option  value="679">Magdalena - SAN SEBASTIAN DE BUENAVISTAS</option>
+                                                                        <option  value="680">Magdalena - SAN ZENON</option>
+                                                                        <option  value="681">Magdalena - SANTA ANA</option>
+                                                                        <option  value="659">Magdalena - SANTA MARTA</option>
+                                                                        <option  value="682">Magdalena - SITIONUEVO</option>
+                                                                        <option  value="683">Magdalena - TENERIFE</option>
+                                                                        <option  value="684">Magdalena - ZONA BANANERA</option>
+                                                                        <option  value="686">Meta - ACACIAS</option>
+                                                                        <option  value="687">Meta - BARRANCA DE UPIA</option>
+                                                                        <option  value="688">Meta - CABUYARO</option>
+                                                                        <option  value="689">Meta - CASTILLA LA NUEVA</option>
+                                                                        <option  value="691">Meta - CUMARAL</option>
+                                                                        <option  value="692">Meta - EL CALVARIO</option>
+                                                                        <option  value="693">Meta - EL CASTILLO</option>
+                                                                        <option  value="694">Meta - EL DORADO</option>
+                                                                        <option  value="695">Meta - FUENTE DE ORO</option>
+                                                                        <option  value="696">Meta - GRANADA</option>
+                                                                        <option  value="697">Meta - GUAMAL</option>
+                                                                        <option  value="700">Meta - LA MACARENA</option>
+                                                                        <option  value="710">Meta - LA PAZ</option>
+                                                                        <option  value="702">Meta - LA URIBE</option>
+                                                                        <option  value="704">Meta - LEJANIAS</option>
+                                                                        <option  value="698">Meta - MAPIRIPAN</option>
+                                                                        <option  value="699">Meta - MESETAS</option>
+                                                                        <option  value="703">Meta - PUERO LOPEZ</option>
+                                                                        <option  value="705">Meta - PUERTO CONCORDIA</option>
+                                                                        <option  value="706">Meta - PUERTO GAITAN</option>
+                                                                        <option  value="701">Meta - PUERTO GAITAN</option>
+                                                                        <option  value="707">Meta - PUERTO LLERAS</option>
+                                                                        <option  value="716">Meta - PUERTO LOPEZ</option>
+                                                                        <option  value="708">Meta - PUERTO RICO</option>
+                                                                        <option  value="709">Meta - RESTREPO</option>
+                                                                        <option  value="711">Meta - SAN CARLOS DE GUAROA</option>
+                                                                        <option  value="713">Meta - SAN JUANITO</option>
+                                                                        <option  value="690">Meta - SAN LUIS DE CUBARRAL</option>
+                                                                        <option  value="714">Meta - SAN MARTIN</option>
+                                                                        <option  value="712">Meta - SANJUAN DE ARAMA</option>
+                                                                        <option  value="685">Meta - VILLAVICENCIO</option>
+                                                                        <option  value="715">Meta - VISTAHERMOSA</option>
+                                                                        <option  value="718">Nariño - ALBAN</option>
+                                                                        <option  value="719">Nariño - ALBAN</option>
+                                                                        <option  value="720">Nariño - ALDANA</option>
+                                                                        <option  value="721">Nariño - ANCUYA</option>
+                                                                        <option  value="722">Nariño - ARBOLEDA</option>
+                                                                        <option  value="723">Nariño - BARBACOAS</option>
+                                                                        <option  value="724">Nariño - BELEN</option>
+                                                                        <option  value="725">Nariño - BUESACO</option>
+                                                                        <option  value="733">Nariño - CHACHAGüI</option>
+                                                                        <option  value="726">Nariño - COLON</option>
+                                                                        <option  value="727">Nariño - CONSACA</option>
+                                                                        <option  value="728">Nariño - CONTADERO</option>
+                                                                        <option  value="729">Nariño - CORDOBA</option>
+                                                                        <option  value="730">Nariño - CUASPUD</option>
+                                                                        <option  value="731">Nariño - CUMBAL</option>
+                                                                        <option  value="732">Nariño - CUMBITARA</option>
+                                                                        <option  value="734">Nariño - EL CHARCO</option>
+                                                                        <option  value="735">Nariño - EL PEÑOL</option>
+                                                                        <option  value="736">Nariño - EL ROSARIO</option>
+                                                                        <option  value="737">Nariño - EL TABLON</option>
+                                                                        <option  value="738">Nariño - EL TAMBO</option>
+                                                                        <option  value="759">Nariño - FRANCISCO PIZARRO</option>
+                                                                        <option  value="739">Nariño - FUNES</option>
+                                                                        <option  value="740">Nariño - GUACHUCAL</option>
+                                                                        <option  value="741">Nariño - GUAITARILLA</option>
+                                                                        <option  value="742">Nariño - GUALMATAN</option>
+                                                                        <option  value="743">Nariño - ILES</option>
+                                                                        <option  value="744">Nariño - IMUES</option>
+                                                                        <option  value="745">Nariño - IPIALES</option>
+                                                                        <option  value="746">Nariño - LA CRUZ</option>
+                                                                        <option  value="747">Nariño - LA FLORIDA</option>
+                                                                        <option  value="748">Nariño - LA LLANADA</option>
+                                                                        <option  value="749">Nariño - LA TOLA</option>
+                                                                        <option  value="750">Nariño - LA UNION</option>
+                                                                        <option  value="751">Nariño - LEIVA</option>
+                                                                        <option  value="752">Nariño - LINARES</option>
+                                                                        <option  value="753">Nariño - LOS ANDES</option>
+                                                                        <option  value="754">Nariño - MAGUI</option>
+                                                                        <option  value="755">Nariño - MALLAMA</option>
+                                                                        <option  value="756">Nariño - MOSQUERA</option>
+                                                                        <option  value="757">Nariño - OLAYA HERRERA</option>
+                                                                        <option  value="758">Nariño - OSPINA</option>
+                                                                        <option  value="717">Nariño - PASTO</option>
+                                                                        <option  value="760">Nariño - POLICARPA</option>
+                                                                        <option  value="761">Nariño - POTOSI</option>
+                                                                        <option  value="762">Nariño - PROVIDENCIA</option>
+                                                                        <option  value="763">Nariño - PUERRES</option>
+                                                                        <option  value="764">Nariño - PUPIALES</option>
+                                                                        <option  value="765">Nariño - RICAURTE</option>
+                                                                        <option  value="766">Nariño - ROBERTO PAYAN</option>
+                                                                        <option  value="767">Nariño - SAMANIEGO</option>
+                                                                        <option  value="769">Nariño - SAN BERNARDO</option>
+                                                                        <option  value="770">Nariño - SAN LORENZO</option>
+                                                                        <option  value="771">Nariño - SAN PABLO</option>
+                                                                        <option  value="772">Nariño - SAN PEDRO DE CARTAG</option>
+                                                                        <option  value="768">Nariño - SANDONA</option>
+                                                                        <option  value="773">Nariño - SANTA BARBARA</option>
+                                                                        <option  value="774">Nariño - SANTACRUZ</option>
+                                                                        <option  value="775">Nariño - SAPUYES</option>
+                                                                        <option  value="776">Nariño - TAMINANGO</option>
+                                                                        <option  value="777">Nariño - TANGUA</option>
+                                                                        <option  value="778">Nariño - TUMACO</option>
+                                                                        <option  value="779">Nariño - TUQUERRES</option>
+                                                                        <option  value="780">Nariño - YACUANQUER</option>
+                                                                        <option  value="782">Norte de Santander - ABREGO</option>
+                                                                        <option  value="783">Norte de Santander - ARBOLEDAS</option>
+                                                                        <option  value="784">Norte de Santander - BOCHALEMA</option>
+                                                                        <option  value="785">Norte de Santander - BUCARASICA</option>
+                                                                        <option  value="787">Norte de Santander - CACHIRA</option>
+                                                                        <option  value="786">Norte de Santander - CACOTA</option>
+                                                                        <option  value="788">Norte de Santander - CHINACOTA</option>
+                                                                        <option  value="789">Norte de Santander - CHITAGA</option>
+                                                                        <option  value="790">Norte de Santander - CONVENCION</option>
+                                                                        <option  value="781">Norte de Santander - CUCUTA</option>
+                                                                        <option  value="791">Norte de Santander - CUCUTILLA</option>
+                                                                        <option  value="792">Norte de Santander - DURANIA</option>
+                                                                        <option  value="793">Norte de Santander - EL CARMEN</option>
+                                                                        <option  value="794">Norte de Santander - EL TARRA</option>
+                                                                        <option  value="795">Norte de Santander - EL ZULIA</option>
+                                                                        <option  value="796">Norte de Santander - GRAMALOTE</option>
+                                                                        <option  value="797">Norte de Santander - HACARI</option>
+                                                                        <option  value="798">Norte de Santander - HERRAN</option>
+                                                                        <option  value="800">Norte de Santander - LA ESPERANZA</option>
+                                                                        <option  value="801">Norte de Santander - LA PLAYA</option>
+                                                                        <option  value="799">Norte de Santander - LABATECA</option>
+                                                                        <option  value="802">Norte de Santander - LOS PATIOS</option>
+                                                                        <option  value="803">Norte de Santander - LOURDES</option>
+                                                                        <option  value="804">Norte de Santander - MUSTICUA</option>
+                                                                        <option  value="805">Norte de Santander - OCAÑA</option>
+                                                                        <option  value="806">Norte de Santander - PAMPLONA</option>
+                                                                        <option  value="807">Norte de Santander - PAMPLONITA</option>
+                                                                        <option  value="808">Norte de Santander - PUERTO SANTANDER</option>
+                                                                        <option  value="809">Norte de Santander - RAGONVALIA</option>
+                                                                        <option  value="810">Norte de Santander - SALAZAR</option>
+                                                                        <option  value="812">Norte de Santander - SAN CAYETANO</option>
+                                                                        <option  value="813">Norte de Santander - SANTIAGO</option>
+                                                                        <option  value="814">Norte de Santander - SARDINATA</option>
+                                                                        <option  value="815">Norte de Santander - SILOS</option>
+                                                                        <option  value="816">Norte de Santander - TEORAMA</option>
+                                                                        <option  value="817">Norte de Santander - TIBU</option>
+                                                                        <option  value="818">Norte de Santander - TOLEDO</option>
+                                                                        <option  value="819">Norte de Santander - VILLA CARO</option>
+                                                                        <option  value="820">Norte de Santander - VILLA DEL ROSARIO</option>
+                                                                        <option  value="821">Quindío - ARMENIA</option>
+                                                                        <option  value="822">Quindío - BUENAVISTA</option>
+                                                                        <option  value="823">Quindío - CALARCA</option>
+                                                                        <option  value="824">Quindío - CIRCASIA</option>
+                                                                        <option  value="825">Quindío - CORDOBA</option>
+                                                                        <option  value="826">Quindío - FILANDIA</option>
+                                                                        <option  value="827">Quindío - GENOVA</option>
+                                                                        <option  value="829">Quindío - MONTENEGRO</option>
+                                                                        <option  value="830">Quindío - PIJAO</option>
+                                                                        <option  value="831">Quindío - QUIMBAYA</option>
+                                                                        <option  value="832">Quindío - SALENTO</option>
+                                                                        <option  value="828">Quindío - TEBAIDA</option>
+                                                                        <option  value="834">Risaralda - APIA</option>
+                                                                        <option  value="835">Risaralda - BALBOA</option>
+                                                                        <option  value="836">Risaralda - BELEN DE UMBRIA</option>
+                                                                        <option  value="837">Risaralda - DOSQUEBRADAS</option>
+                                                                        <option  value="838">Risaralda - GUATICA</option>
+                                                                        <option  value="839">Risaralda - LA CELIA</option>
+                                                                        <option  value="840">Risaralda - LA VIRGINIA</option>
+                                                                        <option  value="841">Risaralda - MARSELLA</option>
+                                                                        <option  value="842">Risaralda - MISTRATO</option>
+                                                                        <option  value="833">Risaralda - PEREIRA</option>
+                                                                        <option  value="843">Risaralda - PUEBLO RICO</option>
+                                                                        <option  value="844">Risaralda - QUINCHIA</option>
+                                                                        <option  value="845">Risaralda - SANTA ROSA DE CABAL</option>
+                                                                        <option  value="846">Risaralda - SANTUARIO</option>
+                                                                        <option  value="848">Santander - AGUADA</option>
+                                                                        <option  value="849">Santander - ALBANIA</option>
+                                                                        <option  value="850">Santander - ARATOCA</option>
+                                                                        <option  value="851">Santander - BARBOSA</option>
+                                                                        <option  value="852">Santander - BARICHARA</option>
+                                                                        <option  value="853">Santander - BARRANCABERMEJA</option>
+                                                                        <option  value="854">Santander - BETULIA</option>
+                                                                        <option  value="855">Santander - BOLIVAR</option>
+                                                                        <option  value="847">Santander - BUCARAMANGA</option>
+                                                                        <option  value="856">Santander - CABRERA</option>
+                                                                        <option  value="857">Santander - CALIFORNIA</option>
+                                                                        <option  value="858">Santander - CAPITANEJO</option>
+                                                                        <option  value="859">Santander - CARCASI</option>
+                                                                        <option  value="860">Santander - CEPITA</option>
+                                                                        <option  value="861">Santander - CERRITO</option>
+                                                                        <option  value="862">Santander - CHARALA</option>
+                                                                        <option  value="863">Santander - CHARTA</option>
+                                                                        <option  value="864">Santander - CHIMA</option>
+                                                                        <option  value="865">Santander - CHIPATA</option>
+                                                                        <option  value="866">Santander - CIMITARRA</option>
+                                                                        <option  value="867">Santander - CONCEPCION</option>
+                                                                        <option  value="868">Santander - CONFINES</option>
+                                                                        <option  value="869">Santander - CONTRATACION</option>
+                                                                        <option  value="870">Santander - COROMORO</option>
+                                                                        <option  value="871">Santander - CURITI</option>
+                                                                        <option  value="872">Santander - EL CARMEN DE CHUCURI</option>
+                                                                        <option  value="873">Santander - EL GUACAMAYO</option>
+                                                                        <option  value="874">Santander - EL PEÑON</option>
+                                                                        <option  value="875">Santander - EL PLAYON</option>
+                                                                        <option  value="876">Santander - ENCINO</option>
+                                                                        <option  value="877">Santander - ENCISO</option>
+                                                                        <option  value="878">Santander - FLORIAN</option>
+                                                                        <option  value="879">Santander - FLORIDABLANCA</option>
+                                                                        <option  value="880">Santander - GALAN</option>
+                                                                        <option  value="881">Santander - GAMBITA</option>
+                                                                        <option  value="882">Santander - GIRON</option>
+                                                                        <option  value="883">Santander - GUACA</option>
+                                                                        <option  value="884">Santander - GUADALUPE</option>
+                                                                        <option  value="885">Santander - GUAPOTA</option>
+                                                                        <option  value="886">Santander - GUAVATA</option>
+                                                                        <option  value="887">Santander - GUEPSA</option>
+                                                                        <option  value="888">Santander - HATO</option>
+                                                                        <option  value="889">Santander - JESUS MARIA</option>
+                                                                        <option  value="890">Santander - JORDAN</option>
+                                                                        <option  value="891">Santander - LA BELLEZA</option>
+                                                                        <option  value="893">Santander - LA PAZ</option>
+                                                                        <option  value="892">Santander - LANDAZURI</option>
+                                                                        <option  value="894">Santander - LEBRIJA</option>
+                                                                        <option  value="895">Santander - LOS SANTOS</option>
+                                                                        <option  value="896">Santander - MACARAVITA</option>
+                                                                        <option  value="897">Santander - MALAGA</option>
+                                                                        <option  value="898">Santander - MATANZA</option>
+                                                                        <option  value="899">Santander - MOGOTES</option>
+                                                                        <option  value="900">Santander - MOLAGAVITA</option>
+                                                                        <option  value="901">Santander - OCAMONTE</option>
+                                                                        <option  value="902">Santander - OIBA</option>
+                                                                        <option  value="903">Santander - ONZAGA</option>
+                                                                        <option  value="904">Santander - PALMAR</option>
+                                                                        <option  value="905">Santander - PALMAS SOCORRO</option>
+                                                                        <option  value="906">Santander - PARAMO</option>
+                                                                        <option  value="907">Santander - PIEDECUESTA</option>
+                                                                        <option  value="908">Santander - PINCHOTE</option>
+                                                                        <option  value="909">Santander - PUENTE NACIONAL</option>
+                                                                        <option  value="910">Santander - PUERTO PARRA</option>
+                                                                        <option  value="911">Santander - PUERTO WILCHES</option>
+                                                                        <option  value="912">Santander - RIONEGRO</option>
+                                                                        <option  value="913">Santander - SABANA DE TORRES</option>
+                                                                        <option  value="914">Santander - SAN ANDRES</option>
+                                                                        <option  value="915">Santander - SAN BENITO</option>
+                                                                        <option  value="916">Santander - SAN GIL</option>
+                                                                        <option  value="917">Santander - SAN JOAQUIN</option>
+                                                                        <option  value="918">Santander - SAN JOSE DE MIRANDA</option>
+                                                                        <option  value="919">Santander - SAN MIGUEL</option>
+                                                                        <option  value="920">Santander - SAN VICENTE CHUCURI</option>
+                                                                        <option  value="921">Santander - SANTA BARBARA</option>
+                                                                        <option  value="922">Santander - SANTA HELENA DEL OPON</option>
+                                                                        <option  value="923">Santander - SIMACOTA</option>
+                                                                        <option  value="924">Santander - SOCORRO</option>
+                                                                        <option  value="925">Santander - SUAITA</option>
+                                                                        <option  value="926">Santander - SUCRE</option>
+                                                                        <option  value="927">Santander - SURATA</option>
+                                                                        <option  value="928">Santander - TONA</option>
+                                                                        <option  value="929">Santander - VALLE DE SAN JOSE</option>
+                                                                        <option  value="930">Santander - VELEZ</option>
+                                                                        <option  value="931">Santander - VETAS</option>
+                                                                        <option  value="932">Santander - VILLANUEVA</option>
+                                                                        <option  value="933">Santander - ZAPATOCA</option>
+                                                                        <option  value="935">Sucre - BUENAVISTA</option>
+                                                                        <option  value="936">Sucre - CAIMITO</option>
+                                                                        <option  value="939">Sucre - CHALAN</option>
+                                                                        <option  value="938">Sucre - COROZAL</option>
+                                                                        <option  value="940">Sucre - GALERIAS</option>
+                                                                        <option  value="941">Sucre - GUARANDA</option>
+                                                                        <option  value="942">Sucre - LA UNION</option>
+                                                                        <option  value="943">Sucre - LOS PALMITOS</option>
+                                                                        <option  value="944">Sucre - MAJAGUAL</option>
+                                                                        <option  value="945">Sucre - MORROA</option>
+                                                                        <option  value="946">Sucre - OVEJAS</option>
+                                                                        <option  value="947">Sucre - PALMITO</option>
+                                                                        <option  value="937">Sucre - RICAURTE</option>
+                                                                        <option  value="948">Sucre - SAMPUES</option>
+                                                                        <option  value="949">Sucre - SAN BENITO ABAD</option>
+                                                                        <option  value="950">Sucre - SAN JUAN DE BETULIA</option>
+                                                                        <option  value="951">Sucre - SAN MARCOS</option>
+                                                                        <option  value="952">Sucre - SAN ONOFRE</option>
+                                                                        <option  value="953">Sucre - SAN PEDRO</option>
+                                                                        <option  value="954">Sucre - SINCE</option>
+                                                                        <option  value="934">Sucre - SINCELEJO</option>
+                                                                        <option  value="955">Sucre - SUCRE</option>
+                                                                        <option  value="956">Sucre - TOLU</option>
+                                                                        <option  value="957">Sucre - TOLUVIEJO</option>
+                                                                        <option  value="959">Tolima - ALPUJARRA</option>
+                                                                        <option  value="960">Tolima - ALVARADO</option>
+                                                                        <option  value="961">Tolima - AMBALEMA</option>
+                                                                        <option  value="962">Tolima - ANZOATEGUI</option>
+                                                                        <option  value="963">Tolima - ARMERO</option>
+                                                                        <option  value="964">Tolima - ATACO</option>
+                                                                        <option  value="965">Tolima - CAJAMARCA</option>
+                                                                        <option  value="966">Tolima - CARMEN DE APICALA</option>
+                                                                        <option  value="967">Tolima - CASABLANCA</option>
+                                                                        <option  value="968">Tolima - CHAPARRAL</option>
+                                                                        <option  value="969">Tolima - COELLO</option>
+                                                                        <option  value="970">Tolima - COYAIMA</option>
+                                                                        <option  value="971">Tolima - CUNDAY</option>
+                                                                        <option  value="972">Tolima - DOLORES</option>
+                                                                        <option  value="974">Tolima - ESPINAL</option>
+                                                                        <option  value="975">Tolima - FALAN</option>
+                                                                        <option  value="976">Tolima - FLANDES</option>
+                                                                        <option  value="973">Tolima - FRESNO</option>
+                                                                        <option  value="977">Tolima - GUAMO</option>
+                                                                        <option  value="978">Tolima - HERVEO</option>
+                                                                        <option  value="979">Tolima - HONDA</option>
+                                                                        <option  value="958">Tolima - IBAGUE</option>
+                                                                        <option  value="980">Tolima - ICONONZO</option>
+                                                                        <option  value="981">Tolima - LERIDA</option>
+                                                                        <option  value="982">Tolima - LIBANO</option>
+                                                                        <option  value="983">Tolima - MARIQUITA</option>
+                                                                        <option  value="984">Tolima - MELGAR</option>
+                                                                        <option  value="985">Tolima - MURILLO</option>
+                                                                        <option  value="986">Tolima - NATAGAIMA</option>
+                                                                        <option  value="987">Tolima - ORTEGA</option>
+                                                                        <option  value="988">Tolima - PALOCABILDO</option>
+                                                                        <option  value="989">Tolima - PIEDRAS</option>
+                                                                        <option  value="990">Tolima - PLANADAS</option>
+                                                                        <option  value="991">Tolima - PRADO</option>
+                                                                        <option  value="992">Tolima - PURIFICACION</option>
+                                                                        <option  value="993">Tolima - RIOBLANCO</option>
+                                                                        <option  value="994">Tolima - RONCESVALLES</option>
+                                                                        <option  value="995">Tolima - ROVIRA</option>
+                                                                        <option  value="996">Tolima - SALDAÑA</option>
+                                                                        <option  value="997">Tolima - SAN ANTONIO</option>
+                                                                        <option  value="998">Tolima - SAN LUIS</option>
+                                                                        <option  value="999">Tolima - SANTA ISABEL</option>
+                                                                        <option  value="1000">Tolima - SUAREZ</option>
+                                                                        <option  value="1001">Tolima - VALLE DE SAN JUAN</option>
+                                                                        <option  value="1002">Tolima - VENADILLO</option>
+                                                                        <option  value="1003">Tolima - VILLAHERMOSA</option>
+                                                                        <option  value="1005">Valle del Cauca - ALCALÁ</option>
+                                                                        <option  value="1006">Valle del Cauca - ANDALUCÍA</option>
+                                                                        <option  value="1007">Valle del Cauca - ANSERMANUEVO</option>
+                                                                        <option  value="1008">Valle del Cauca - ARGELIA</option>
+                                                                        <option  value="1009">Valle del Cauca - BOLÍVAR</option>
+                                                                        <option  value="1010">Valle del Cauca - BUENAVENTURA</option>
+                                                                        <option  value="1011">Valle del Cauca - BUGA</option>
+                                                                        <option  value="1012">Valle del Cauca - BUGALAGRANDE</option>
+                                                                        <option  value="1013">Valle del Cauca - CAICEDONIA</option>
+                                                                        <option  value="1004">Valle del Cauca - CALI</option>
+                                                                        <option  value="1014">Valle del Cauca - CALIMA - EL DARIÉN</option>
+                                                                        <option  value="1015">Valle del Cauca - CANDELARIA</option>
+                                                                        <option  value="1016">Valle del Cauca - CARTAGO</option>
+                                                                        <option  value="1017">Valle del Cauca - DAGUA</option>
+                                                                        <option  value="1018">Valle del Cauca - EL ÁGUILA</option>
+                                                                        <option  value="1019">Valle del Cauca - EL CAIRO</option>
+                                                                        <option  value="1020">Valle del Cauca - EL CERRITO</option>
+                                                                        <option  value="1021">Valle del Cauca - EL DOVIO</option>
+                                                                        <option  value="1022">Valle del Cauca - FLORIDA</option>
+                                                                        <option  value="1023">Valle del Cauca - GINEBRA</option>
+                                                                        <option  value="1024">Valle del Cauca - GUACARÍ</option>
+                                                                        <option  value="1025">Valle del Cauca - JAMUNDÍ</option>
+                                                                        <option  value="1026">Valle del Cauca - LA CUMBRE</option>
+                                                                        <option  value="1027">Valle del Cauca - LA UNIÓN</option>
+                                                                        <option  value="1028">Valle del Cauca - LA VICTORIA</option>
+                                                                        <option  value="1029">Valle del Cauca - OBANDO</option>
+                                                                        <option  value="1030">Valle del Cauca - PALMIRA</option>
+                                                                        <option  value="1031">Valle del Cauca - PRADERA</option>
+                                                                        <option  value="1032">Valle del Cauca - RESTREPO</option>
+                                                                        <option  value="1033">Valle del Cauca - RIOFRÍO</option>
+                                                                        <option  value="1034">Valle del Cauca - ROLDANILLO</option>
+                                                                        <option  value="1035">Valle del Cauca - SAN PEDRO</option>
+                                                                        <option  value="1036">Valle del Cauca - SEVILLA</option>
+                                                                        <option  value="1037">Valle del Cauca - TORO</option>
+                                                                        <option  value="1038">Valle del Cauca - TRUJILLO</option>
+                                                                        <option  value="1039">Valle del Cauca - TULUÁ</option>
+                                                                        <option  value="1040">Valle del Cauca - ULLOA</option>
+                                                                        <option  value="1041">Valle del Cauca - VERSALLES</option>
+                                                                        <option  value="1042">Valle del Cauca - VIJES</option>
+                                                                        <option  value="1043">Valle del Cauca - YOTOCO</option>
+                                                                        <option  value="1044">Valle del Cauca - YUMBO</option>
+                                                                        <option  value="1045">Valle del Cauca - ZARZAL</option>
+                                                                </select>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-3">
+                            <label for="tamano" class="control-label">* Tamaño</label>
+                            <select id="tamano" name="tamano" class="form-control obligatorio">
+            <option value="">::Seleccionar::</option>
+            <option   value="GR">Gran empresa</option>
+            <option   value="ME">Mediana empresa</option>
+            <option   value="MI">Microempresa</option>
+            <option selected  value="PE">Pequeña empresa</option>
+                             </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="arl" class="control-label">ARL</label>
+                            <input type="text" id="arl" name="arl" class="form-control" value="SURA">
+                        </div>
+                        <div class="col-md-3">
+                            <label for="sector" class="control-label">Sector económico</label>
+                            <select id="sector" name="sector" class="form-control">
+            <option value="">::Seleccionar::</option>
+                                                                        <option  value="1" >Publico</option>
+                                                                        <option  value="2" selected>Privado</option>
+                                                                        <option  value="3" >Mixto</option>
+                                                                </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="empleados" class="control-label">Número de empleados</label>
+                            <input type="text" id="empleados" name="empleados" class="form-control" value="4" disabled="disabled" />
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-md-6">
+                            <label for="actividadeconomica" class="control-label">* Actividad económica</label>
+                            <select id="actividadeconomica" name="actividadeconomica" class="form-control obligatorio ">
+            <option value="">::Seleccionar::</option>
+                                                                        <option value="0" selected >Servicios</option>
+                                                                        <option value="1"  >Agricultura</option>
+                                                                        <option value="2"  >Ganaderia</option>
+                                                                        <option value="3"  >Industria</option>
+                                                                        <option value="4"  >Comercio</option>
+                                                                        <option value="5"  >Comunicaciones</option>
+                                                                </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="representante" class="control-label">Representante</label>
+                            <input type="text" checked="" id="representante" name="representante" maxlength="100" class="form-control" value="SERVIO OLMOS" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="usuariosAdmitidos" class="control-label ">Número de Usuarios Admitidos</label>
+                        <div class="input-group">
+                            <input type="text" checked="" id="usuariosAdmitidos" name="usuariosAdmitidos" class="form-control" value="850" disabled="disabled" />
+                            <div class="input-group-addon"><i class="fa fa-users"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-6">
+                        <label for="dimension1" class="control-label">Ciudades</label>
+                        <input type="text" id="dimension1" name="dimension1" maxlength="50" class="form-control" value="Ciudades" />
+                    </div>
+                    <div class="col-md-6">
+                        <label for="dimension2" class="control-label ">Sedes / Centro de trabajo</label>
+                        <input type="text" id="dimension2" name="dimension2" maxlength="50" class="form-control" value="Sedes / Centro de trabajo">
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col-md-6">
+                        <label for="correo" class="control-label ">Correos</label>
+                        <input type="text" id="correo" name="correo" class="form-control" value="GERENCIA@SOAINGENIORS" />
+                    </div>
+                    <!--Cargue Archivo Img-->
+                    <div class="col-md-6">
+                        <label for="userfile">Logo</label>
+                        <input type="file" id="userfile" name="userfile" class="form-control" />
+                    </div>
+                </div>
+        </div>
+        <!--FIN FORMULARIO BD EMPRESA-->
+
+        <div class="row form-group">
+            <div class="offset-4 col-md-4">
+                <a class="btn btn-lg btn-primary btn-block btn-signin" href="inicio.html#inicio">Guardar </a>
+            </div>
+        </div>
+        </form>
+    </div>
+
+
+    <div id="tab2" class="tab-pane">
+        <form method="post" class="form-horizontal">
+            <button type="button" class="btn btn-info circle" id="agregarEmpresa" title='Asociar nueva empresa'><i class="fa fa-user-plus"></i> Nueva</button> &nbsp;&nbsp;
+            <button type="button" class="btn btn-info circle" id="duplicarModulo" title='Duplicar aun modulo a una sub empresa'><i class="fa fa-list"></i> Duplicar Modulo</button>
+            <hr>
+            <div class="row form-group">
+                <div class="col-md-12">
+                    <div class='table-responsive'>
+                        <table id="tablesst" class="table table-striped table-bordered table-hover ">
+                            <thead>
+                                <th style="text-align: center">Nit</th>
+                                <th style="text-align: center">Razón Social</th>
+                                <th style="text-align: center">Teléfono</th>
+                                <th style="text-align: center">Celular</th>
+                                <th style="text-align: center">Dirección</th>
+                                <th style="text-align: center">Usuarios autorizados</th>
+                                <th style="text-align: center">Usuarios creados</th>
+                                <th style="text-align: center">Fecha inicial</th>
+                                <th style="text-align: center">Fecha final</th>
+                                <th style="text-align: center">Usuario creador</th>
+                                <th style="text-align: center">Fecha creación</th>
+                                <!--<th style="text-align: center">Permisos</th>-->
+                                <th style="text-align: center">Seguimiento</th>
+                                <th style="text-align: center">Editar</th>
+                                <th style="text-align: center">Estado</th>
+                            </thead>
+                            <tbody id="cuerpoSubEmpresa">
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    </div <!--Musica de fondo en la pagina -->
+    <audio autoplay>
+<source src="m/m2.ogg " autoplay="audio/ogg ">
+<source src="m/m2.mp3 " autoplay="audio/mpeg ">
+<source src="m/m2.wav " autoplay="audio/wav ">
+<object type="application/x-shockwave-flash " data="player.swf?miArchivo=mi-archivo-de-audio.mp3 ">
+  <param name="movie " value="player.swf?miArchivo=mi-archivo-de-audio.mp3 ">
+  <a href="m/m2.mp3 ">Descárgate aquí mi archivo de audio</a>
+</object>
+</audio>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+    <!-- Libreria java scritp de bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src=/js/inicio.js></script>
+
+</body>
+
+</html>
